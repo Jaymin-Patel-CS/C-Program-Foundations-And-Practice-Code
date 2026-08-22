@@ -1,0 +1,2 @@
+the value of a is 11.
+wow! you learned how to write in the file.

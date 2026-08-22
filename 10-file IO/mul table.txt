@@ -1,0 +1,10 @@
+5 multiply by 1 = 5
+5 multiply by 2 = 10
+5 multiply by 3 = 15
+5 multiply by 4 = 20
+5 multiply by 5 = 25
+5 multiply by 6 = 30
+5 multiply by 7 = 35
+5 multiply by 8 = 40
+5 multiply by 9 = 45
+5 multiply by 10 = 50

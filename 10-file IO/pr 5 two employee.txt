@@ -1,0 +1,6 @@
+The employee number 1
+NAME : jjj
+SALARY : 123
+The employee number 2
+NAME : ppp
+SALARY : 456
