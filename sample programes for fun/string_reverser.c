@@ -1,22 +1,19 @@
 #include <stdio.h>
 #include <string.h>
 
-void reverse(char *arr , int x)
+void reverse(char arr[] , int x)
 {
     int i= 0;
-    for ( i = 0; i < x/2; i++)
+    char reversed[x];
+    for (i = 0; i < x; i++)
     {
-        char reversed[x];
-        for (i = 0; i < x/2; i++)
-        {
-            reversed[i] = arr[x-1-i];
-        }
-        for (int j = 0; i < x; j++)
-        {
-            arr[i] = reversed[i];
-        }
-        printf("The string have reversed if you access it from now , it will come reversed.");
+        reversed[i] = arr[x-1-i];
     }
+    for (int j = 0; j < x; j++)
+    {
+        arr[j] = reversed[j];
+    }
+    printf("The string have reversed if you access it from now , it will come reversed.");
 }
 
 int main() {
