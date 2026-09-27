@@ -2,6 +2,12 @@
 #include <string.h>
 #include <math.h>
 
+// limitations are 
+// 1. you will not the decimal points values after the '.'
+// 2. suggested to enter only integer expretions .
+// 3. for fraction decimal values this will not work.
+// i will try to cover them also in edited version of this calculator. 
+
 int num1(char equation[], int a, int b, char operator)
 {
     int num1 = 0;
@@ -93,7 +99,8 @@ int multiplication(int a, int b)
 
 int division(int a, int b)
 {
-    return (b != 0) ? (a / b) : 0;
+    float c = a/b;
+    return (b != 0) ? c : 0;
 }
 
 int main()
